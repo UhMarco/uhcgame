@@ -1,0 +1,61 @@
+name: UHC
+version: '${project.version}'
+main: me.marco.uhcgame.UHCGame
+commands:
+  uhc:
+    description: UHC info.
+  shout:
+    description: Say something for everyone to see.
+    aliases: [sh]
+  start:
+    description: Starts the game.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  status:
+    description: Check the status of the current UHC game.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  endgrace:
+    description: Ends the grace period if currently active.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  lobby:
+    description: Teleport to the lobby.
+    permission: uhc.lobby
+    permission-message: You don't have permission to do this.
+  setlobby:
+    description: Sets the lobby position.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  revive:
+    description: Adds a player into the game and
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  disqualify:
+    description: Remove a player from the game.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  world:
+    description: Teleport to a world.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  setstate:
+    description: Set the game state.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  deathmatch:
+    description: Deatchmatch configuration.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  setmode:
+    description: Set the UHC mode.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+  setdeathmatchtimer:
+    description: Set the deathmatch timer.
+    permission: uhc.admin
+    permission-message: You don't have permission to do this.
+    aliases: [setdm, dmtimer, settimer, timer]
+  party:
+    description: Party command.
+    aliases: [p]

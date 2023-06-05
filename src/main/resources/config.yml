@@ -1,0 +1,25 @@
+uhc-chat: true
+mode: 0
+
+starting-players: 40
+max-players: 50
+
+starting-border: 1000
+nether-border-multiplier: 0.5
+border-shrink-rate: 5
+
+grace-period: 10
+deathmatch-timer: 45
+game-over: 15
+
+lobby-world: "world"
+lobby-position:
+  x: 0.5
+  y: 100
+  z: 0.5
+game-world: "world"
+allow-weather: false
+deathmatch-world: "deathmatch"
+
+title: "UHC"
+footer: "uhc.lsc.gg"
